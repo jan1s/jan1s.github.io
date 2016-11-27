@@ -1,12 +1,14 @@
 ---
 layout: post
-title:  "STM32 Toolchain on macOS"
+title:  "STM32 Toolchain"
 date:   2016-11-27 18:44:26 +0100
 categories: jekyll update
 ---
 
-Setting up a STM32 toolchain on macOS can be confusing.
+Setting up a STM32 toolchain can be confusing.
 Here is how i do it.
+
+# macOS
 
 If you have not installed [Homebrew][brew] yet, you should do that right now.
 
@@ -39,6 +41,8 @@ In Project Properties -> C/C++ Build -> Environment -> Add:
 `Value: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
 
 Setting up a debug configuration [source][debug]:
+
+
 
 
 [brew]: http://brew.sh
