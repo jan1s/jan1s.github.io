@@ -13,25 +13,29 @@ Here is how i do it.
 1. If you have not installed [Homebrew][brew] yet, you should do that right now.
 
 2.  Install [stlink][stlink]:
-    {% highlight bash %}
+
+    ```bash
     brew install stlink
-    {% endhighlight %}
+    ```
+
 
 3.  Install GNU ARM GCC Toolchain:
-    {% highlight bash %}
+
+    ```bash
     xcode-select --install
     brew tap PX4/homebrew-px4
     brew update
     brew install genromfs
     brew install gcc-arm-none-eabi
-    {% endhighlight %}
+    ```
 
 4.  Install eclipse:
-    {% highlight bash %}
+
+    ```bash
     brew tap caskroom/cask
     brew cask install java
     brew cask install eclipse-cpp
-    {% endhighlight %}
+    ```
 
 5.  Install the [GNU ARM Eclipse Plugin][plugin].
 
