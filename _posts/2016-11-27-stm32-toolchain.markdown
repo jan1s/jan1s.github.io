@@ -10,37 +10,37 @@ Here is how i do it.
 
 # macOS
 
-If you have not installed [Homebrew][brew] yet, you should do that right now.
+1. If you have not installed [Homebrew][brew] yet, you should do that right now.
 
-Install [stlink][stlink]:
-{% highlight bash %}
-brew install stlink
-{% endhighlight %}
+2.  Install [stlink][stlink]:
+    {% highlight bash %}
+    brew install stlink
+    {% endhighlight %}
 
-Install GNU ARM GCC Toolchain:
-{% highlight bash %}
-xcode-select --install
-brew tap PX4/homebrew-px4
-brew update
-brew install genromfs
-brew install gcc-arm-none-eabi
-{% endhighlight %}
+3.  Install GNU ARM GCC Toolchain:
+    {% highlight bash %}
+    xcode-select --install
+    brew tap PX4/homebrew-px4
+    brew update
+    brew install genromfs
+    brew install gcc-arm-none-eabi
+    {% endhighlight %}
 
-Install eclipse:
-{% highlight bash %}
-brew tap caskroom/cask
-brew cask install java
-brew cask install eclipse-cpp
-{% endhighlight %}
+4.  Install eclipse:
+    {% highlight bash %}
+    brew tap caskroom/cask
+    brew cask install java
+    brew cask install eclipse-cpp
+    {% endhighlight %}
 
-Install the [GNU ARM Eclipse Plugin][plugin].
+5.  Install the [GNU ARM Eclipse Plugin][plugin].
 
-In Project Properties -> C/C++ Build -> Environment -> Add:
+    In Project Properties -> C/C++ Build -> Environment -> Add:
 
-`Name: PATH`
-`Value: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
+    `Name: PATH`
+    `Value: /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
 
-Setting up a debug configuration [source][debug]:
+6.  Setting up a debug configuration [source][debug]:
 
 
 
