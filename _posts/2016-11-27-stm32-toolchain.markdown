@@ -46,6 +46,8 @@ Here is how i do it.
 
 6.  Setting up a debug configuration [source][debug]:
 
+    Simply follow the onsite instructions
+
 
 
 
