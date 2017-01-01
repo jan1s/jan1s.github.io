@@ -43,13 +43,17 @@ Here is how i do it.
     brew install ghostscript
     ```
 
-7. Install [Package Control][packagecontrol] in Sublime Text
+7. Install [Package Control][packagecontrol] in Sublime Text:
+    
+    Simply follow the on-site instructions
 
 
 7. Install [LaTeXTools][latextools] plugin in Sublime Text:
 
     Press `⌘+⇧+P` in Sublime Text
+
     Enter `Package Control: Install Package`
+
     Enter `LaTeXTools`
 
 Now you should be able to compile your .tex Documents with `⌘+B`
