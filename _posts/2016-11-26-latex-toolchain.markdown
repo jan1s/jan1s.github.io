@@ -18,7 +18,7 @@ Here is how i do it.
     brew tap caskroom/cask
     ```
 
-3. Install [MacTeX][mactex] latex toolchain:
+3. Install [MacTeX][mactex] LaTeX toolchain:
 
     ```bash
     brew cask install mactex
@@ -48,7 +48,7 @@ Here is how i do it.
     Simply follow the on-site instructions
 
 
-7. Install [LaTeXTools][latextools] plugin in Sublime Text:
+8. Install [LaTeXTools][latextools] plugin in Sublime Text:
 
     Press `⌘+⇧+P` in Sublime Text
 
@@ -57,6 +57,30 @@ Here is how i do it.
     Enter `LaTeXTools`
 
 Now you should be able to compile your .tex Documents with `⌘+B`
+
+
+# Windows
+
+1. Install [MiKTeX][miktex] LaTeX toolchain
+
+2. Install [Sublime Text][subl] text editor
+
+3. Install [Sumatra PDF][sumatra] reader
+
+4. Install [Package Control][packagecontrol] in Sublime Text:
+    
+    Simply follow the on-site instructions
+
+
+5. Install [LaTeXTools][latextools] plugin in Sublime Text:
+
+    Press `Ctrl+Shift+P` in Sublime Text
+
+    Enter `Package Control: Install Package`
+
+    Enter `LaTeXTools`
+
+Now you should be able to compile your .tex Documents with `Ctrl+B`
 
 
 
@@ -69,3 +93,6 @@ Now you should be able to compile your .tex Documents with `⌘+B`
 [imagemagick]: http://imagemagick.org
 [packagecontrol]: https://packagecontrol.io/installation
 [latextools]: https://github.com/SublimeText/LaTeXTools
+
+[miktex]: https://miktex.org/download
+[sumatra]: https://www.sumatrapdfreader.org
