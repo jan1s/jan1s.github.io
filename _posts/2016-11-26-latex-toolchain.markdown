@@ -10,9 +10,44 @@ Here is how i do it.
 
 # macOS
 
-If you have not installed [Homebrew][brew] yet, you should do that right now.
+1. If you have not installed [Homebrew][brew] yet, you should do that right now.
 
+2. Install [Cask][cask] for binary management:
+    ```bash
+    brew tap caskroom/cask
+    ```
+
+3. Install [MacTeX][mactex] latex toolchain:
+    ```bash
+    brew cask install mactex
+    ```
+
+4. Install [Sublime Text][subl] text editor:
+    ```bash
+    brew cask install sublime-text
+    ```
+
+5. Install [skim][skim] PDF viewer:
+    ```bash
+    brew cask install skim
+    ```
+
+6. Install [ImageMagick][imagemagick] for equation preview (optional):
+    ```bash
+    brew install imagemagick
+    brew install ghostscript
+    ```
+
+7. Install [LaTeXTools][latextools] plugin in Sublime Text:
+`Name: PATH`
+<kbd>command</kbd> + <kbd>shift</kbd> + <kbd>P</kbd>
 
 
 
 [brew]: http://brew.sh
+[cask]: https://caskroom.github.io
+[mactex]: http://www.tug.org/mactex/
+[skim]: http://skim-app.sourceforge.net
+[subl]: https://www.sublimetext.com
+[imagemagick]: http://imagemagick.org
+[latextools]: https://github.com/SublimeText/LaTeXTools
