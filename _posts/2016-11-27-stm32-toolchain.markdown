@@ -48,6 +48,21 @@ Here is how i do it.
 
     Simply follow the onsite instructions
 
+# Windows
+
+1.  The ugly things first.. install [Java][java].
+
+2.  Next, install [eclipse][eclipse].
+
+3.  Install the [Windows Build Tools][windowstools] for GNU ARM development.
+
+4.  Install the [GNU ARM Eclipse Plugin][plugin].
+
+5.  Setting up a debug configuration [source][debug]:
+
+    Simply follow the onsite instructions.
+    Use a current windows build from the [stlink][stlink] release site.
+
 
 
 
@@ -56,3 +71,6 @@ Here is how i do it.
 [plugin]: http://gnuarmeclipse.github.io/plugins/install/
 [debug]: http://erika.tuxfamily.org/wiki/index.php?title=Tutorial:_STM32_-_Integrated_Debugging_in_Eclipse_using_GNU_toolchain&oldid=5474
 
+[java]: https://java.com/de/download/ 
+[eclipse]: https://www.eclipse.org/downloads/packages/eclipse-ide-cc-developers/neon3
+[windowstools]: http://gnuarmeclipse.github.io/windows-build-tools/install/
